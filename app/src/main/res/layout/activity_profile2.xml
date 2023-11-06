@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/back2">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="profile"
+        android:src="@drawable/female"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textStyle="bold"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="30dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/Name"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="30dp" />
+
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/mobileno"/>
+
+    <TextView
+        android:id="@+id/text22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="530dp"
+        android:text="Mobile No:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/email"/>
+
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#3549B8"
+        android:text="Save" />
+
+
+</FrameLayout>

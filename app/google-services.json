@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285755630835",
+    "project_id": "safety-shield-1feb5",
+    "storage_bucket": "safety-shield-1feb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285755630835:android:cf143964d4dea67f1e0386",
+        "android_client_info": {
+          "package_name": "com.example.database_location"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhrbalamVRW3kjxSrEpz_KosTu4hgG8vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

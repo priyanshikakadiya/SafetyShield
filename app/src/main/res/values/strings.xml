@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Safety Shield</string>
+        <string name="username">Username</string>
+        <string name="login">Login</string>
+        <string name="signin">Signin</string>
+        <string name="sign_up">Sign Up</string>
+        <string name="name">Name</string>
+        <string name="Name">Enter Your Name</string>
+        <string name="email">Enter Your Email</string>
+        <string name="emailid">Emailid</string>
+        <string name="conformpassword">ConformPassword</string>
+        <string name="password">Password</string>
+        <string name="sign_in">Sign in</string>
+        <string name="not_yet_registered_sign_Up_now">Not yet registered? Sign Up</string>
+        <string name="already_have_an_account_Login">Already have an account? Login</string>
+        <string name="other" />
+        <string name="LOGININ" />
+        <string name="not_yet_registered_sign_up" />
+        <string name="mobileno">mobile No</string>
+        <string name="Mobileno">Mobile No</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
